@@ -258,8 +258,8 @@
         </pluginManagement>
         <plugins>
           <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
+           <!-- <groupId>org.jacoco</groupId> -->
+          <!--  <artifactId>jacoco-maven-plugin</artifactId> -->
             <configuration>
               <append>true</append>
             </configuration>
