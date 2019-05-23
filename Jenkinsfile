@@ -1,10 +1,8 @@
-pipeline
+node
 {
-  stages{
     stage('SCM Checkout')
     {
       git 'https://github.com/Shan12196/demo'
     }
-  }
 }
 
