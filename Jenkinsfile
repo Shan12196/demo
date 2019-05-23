@@ -8,6 +8,14 @@ node
     {
       git 'https://github.com/Shan12196/demo'
     }
+    stage ("initialize") {
+        steps {
+        sh '''
+        echo "PATH = ${PATH}"
+        echo "M2_HOME = ${M2_HOME}"
+        '''
+        }
+    }
     stage('Build')
     {
          
