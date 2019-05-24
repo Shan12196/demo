@@ -7,6 +7,7 @@ node
     stage ("maven") {
         withMaven(jdk: 'jdk7', maven: 'Maven 3.5.4'){
             sh 'mvn clean install'
+        }
     } 
 }
 
