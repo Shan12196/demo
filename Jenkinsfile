@@ -5,8 +5,9 @@ node
       git 'https://github.com/Shan12196/demo'
     }
     stage ("maven") {
-            sh 'mvn clean install'
-        
+        withMaven(maven: 'Maven 3.5.4', java: 'jdk7'){
+            sh './mvn clean install'
+        }
     } 
 }
 
